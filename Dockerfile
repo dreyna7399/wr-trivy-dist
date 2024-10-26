@@ -11,8 +11,8 @@ RUN git config --global user.email ""
 RUN git config --global user.name "wr-trivy"
 
 # Install Go.
-ADD https://dl.google.com/go/go1.21.4.linux-amd64.tar.gz ./
-RUN rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.4.linux-amd64.tar.gz
+ADD https://go.dev/dl/go1.23.2.linux-amd64.tar.gz ./
+RUN rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
 ENV PATH=$PATH:/usr/local/go/bin
 RUN go version
 

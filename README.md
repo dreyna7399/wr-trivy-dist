@@ -6,7 +6,8 @@ There are two methods to install and run `trivy` that supports Wind River Linux.
 
 The docker image is 
 
-⚠ **WARNING:** This file is written and verified for host running `Ubuntu 20.04 LTS` as the operating system (OS). If the host is running any other distributions of OS, any information provided in this file might not be accurate.
+⚠ **WARNING:** This file is written and verified for hosts running `Ubuntu 20.04 LTS` and `Ubuntu 22.04 LTS` as the operating system (OS). If the host is running any other distributions of OS, any information provided in this file might not be accurate.
+⚠ **WARNING:** Trivy (e.g. v0.56.2) requires go v1.22
 
 # Method 1: Installing and Runing `trivy` as a Binary on Host
 

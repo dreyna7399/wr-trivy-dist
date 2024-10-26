@@ -5,15 +5,12 @@
 
 # Constants
 
-#VER_TRIVY="v0.46.1"
-#VER_VULN_LIST_UPDATE="eb47fe8e028cece8b97ec6aef471f2c3ada95ca0"
-
 VER_TRIVY="v0.56.2"
 VER_VULN_LIST_UPDATE="8b61bbff7ce6311eff2897745e37ed37a21b7d56"
 
 # Notes:
-#   VER_TRIVY           : the desired Trivy release (ends in '.1','.2',...)
-#   VER_VULN_LIST_UPDATE: tag after which patches are added on top
+#   VER_TRIVY           : Desired Trivy release (ends in '.1','.2',...)
+#   VER_VULN_LIST_UPDATE: SHA after which patches are added on top
 #   TRIVY_DB            : SHA derived from Trivy by 'get_trivy_db_commit'
 #                         $ grep trivy-db trivy/go.mod
 #                         github.com/aquasecurity/trivy-db v0.0.0-20240910133327-7e0f4d2ed4c1
